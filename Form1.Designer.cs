@@ -42,6 +42,7 @@ namespace Lab03
             this.btnDesconectar = new System.Windows.Forms.Button();
             this.btnEstado = new System.Windows.Forms.Button();
             this.btnPersona = new System.Windows.Forms.Button();
+            this.btnLogin = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -157,7 +158,7 @@ namespace Lab03
             // 
             // btnPersona
             // 
-            this.btnPersona.Location = new System.Drawing.Point(193, 208);
+            this.btnPersona.Location = new System.Drawing.Point(240, 208);
             this.btnPersona.Name = "btnPersona";
             this.btnPersona.Size = new System.Drawing.Size(92, 23);
             this.btnPersona.TabIndex = 13;
@@ -165,11 +166,22 @@ namespace Lab03
             this.btnPersona.UseVisualStyleBackColor = true;
             this.btnPersona.Click += new System.EventHandler(this.btnPersona_Click);
             // 
+            // btnLogin
+            // 
+            this.btnLogin.Location = new System.Drawing.Point(127, 208);
+            this.btnLogin.Name = "btnLogin";
+            this.btnLogin.Size = new System.Drawing.Size(91, 23);
+            this.btnLogin.TabIndex = 14;
+            this.btnLogin.Text = "Login";
+            this.btnLogin.UseVisualStyleBackColor = true;
+            this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(453, 249);
+            this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.btnPersona);
             this.Controls.Add(this.btnEstado);
             this.Controls.Add(this.btnDesconectar);
@@ -206,6 +218,7 @@ namespace Lab03
         private System.Windows.Forms.Button btnDesconectar;
         private System.Windows.Forms.Button btnEstado;
         private System.Windows.Forms.Button btnPersona;
+        private System.Windows.Forms.Button btnLogin;
     }
 }
 
