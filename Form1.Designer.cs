@@ -43,6 +43,7 @@ namespace Lab03
             this.btnEstado = new System.Windows.Forms.Button();
             this.btnPersona = new System.Windows.Forms.Button();
             this.btnLogin = new System.Windows.Forms.Button();
+            this.btnPersona2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -158,7 +159,7 @@ namespace Lab03
             // 
             // btnPersona
             // 
-            this.btnPersona.Location = new System.Drawing.Point(240, 208);
+            this.btnPersona.Location = new System.Drawing.Point(193, 208);
             this.btnPersona.Name = "btnPersona";
             this.btnPersona.Size = new System.Drawing.Size(92, 23);
             this.btnPersona.TabIndex = 13;
@@ -168,7 +169,7 @@ namespace Lab03
             // 
             // btnLogin
             // 
-            this.btnLogin.Location = new System.Drawing.Point(127, 208);
+            this.btnLogin.Location = new System.Drawing.Point(95, 208);
             this.btnLogin.Name = "btnLogin";
             this.btnLogin.Size = new System.Drawing.Size(91, 23);
             this.btnLogin.TabIndex = 14;
@@ -176,11 +177,22 @@ namespace Lab03
             this.btnLogin.UseVisualStyleBackColor = true;
             this.btnLogin.Click += new System.EventHandler(this.btnLogin_Click);
             // 
+            // btnPersona2
+            // 
+            this.btnPersona2.Location = new System.Drawing.Point(291, 208);
+            this.btnPersona2.Name = "btnPersona2";
+            this.btnPersona2.Size = new System.Drawing.Size(85, 23);
+            this.btnPersona2.TabIndex = 15;
+            this.btnPersona2.Text = "Persona2";
+            this.btnPersona2.UseVisualStyleBackColor = true;
+            this.btnPersona2.Click += new System.EventHandler(this.btnPersona2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(453, 249);
+            this.Controls.Add(this.btnPersona2);
             this.Controls.Add(this.btnLogin);
             this.Controls.Add(this.btnPersona);
             this.Controls.Add(this.btnEstado);
@@ -219,6 +231,7 @@ namespace Lab03
         private System.Windows.Forms.Button btnEstado;
         private System.Windows.Forms.Button btnPersona;
         private System.Windows.Forms.Button btnLogin;
+        private System.Windows.Forms.Button btnPersona2;
     }
 }
 
